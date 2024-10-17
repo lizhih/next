@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <div>
+          <a href="/about">AboutPage</a>
+        </div>
         <Image
           className={styles.logo}
           src="https://nextjs.org/icons/next.svg"
@@ -15,7 +18,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>app/page.js</code>.
+            Get started by editing  test<code>app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
